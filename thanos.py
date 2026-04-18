@@ -25,17 +25,6 @@ import m3u8
 from urllib.parse import urljoin
 from vars import *  # Add this import
 from db import Database
-# Source - https://stackoverflow.com/q/69624327
-# Posted by sky_walker, modified by community. See post 'Timeline' for change history
-# Retrieved 2026-04-18, License - CC BY-SA 4.0
-
-# Start with loading all necessary libraries
-
-import pandas as pd
-import matplotlib.pyplot as plt
-from wordcloud import WordCloud
-
-
 
 
 def get_duration(filename):
